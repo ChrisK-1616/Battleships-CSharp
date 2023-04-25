@@ -71,7 +71,7 @@ namespace Battleships.Launcher {
 					 new[] {new Dictionary<ShipType, int> {{ShipType.Destroyer, NUMBER_OF_DESTROYERS}, {ShipType.Battleship, NUMBER_OF_BATTLESHIPS}},
 							new Dictionary<ShipType, int> {{ShipType.Destroyer, NUMBER_OF_DESTROYERS}, {ShipType.Battleship, NUMBER_OF_BATTLESHIPS}}});
 
-			// Prevent the console from disappearing when the game is quit
+			// Prevent the console from disappearing when the game is quit - still needed for a .Net Framework project
 			Console.WriteLine("<Press any key to continue>");
 			Console.ReadKey(true);
 		}
