@@ -9,6 +9,9 @@
 *.user
 *.userosscache
 *.sln.docstates
+Battleships-ChrisKnowles-20130622.zip
+readme.txt
+readme.txt.original
 
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
